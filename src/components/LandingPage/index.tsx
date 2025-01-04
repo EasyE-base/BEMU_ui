@@ -33,7 +33,7 @@ const LandingPage: React.FC = () => {
                 meta: `<p style="font-size: 12px;">
                   <strong>Total Supply:</strong> 3.14B BEMU • 
                   <strong>Starting Price:</strong> $0.00001 • 
-                  <strong>Fees:</strong> Buy: 4% Liquidity | 3% Marketing | 3% Rewards
+                  <strong>Fees:</strong> Buy: 
                 </p>`,
                 title: "TOKENOMICS",
               },
