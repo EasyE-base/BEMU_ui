@@ -95,21 +95,8 @@ const LandingPage: React.FC = () => {
       <div className="hint-text">
         <div>
          
-          <div className="text-block">Contract Address</div>
-          <a 
-            href="https://basescan.org/address/0x170C045cfDbaA5EeDe7d0E6b1892875570111719" 
-            target="_blank"
-            rel="noopener noreferrer"
-            className="div-block w-inline-block"
-          >
-            <div className="text-block copy">CA: 0x170….</div>
-            <img 
-              src="/images/icons8-external-link-30.png" 
-              loading="lazy" 
-              alt="external link" 
-              className="ico"
-            />
-          </a>
+          
+          
         </div>
       </div>
       <div className="hint-text icons">
