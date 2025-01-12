@@ -357,7 +357,9 @@ export default function AddLiquidity({ currencyA, currencyB }) {
                 width="100%"
                 variant='primary'
                 height="48px"
-                onClick={() => open()}
+                onClick={() => open()}disabled={!isLaunched} // Disable the button if not launched
+  {isLaunched ? "Click Me" : "Coming Soon"}
+</Button>
               >
                 <Text fontSize="16px">
                   Connect Wallet
