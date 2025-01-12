@@ -354,10 +354,6 @@ export default function AddLiquidity({ currencyA, currencyB }) {
             )}
             {!account ? (
               <Button
-                width="100%"
-                variant='primary'
-                height="48px"
-                <Button
   width="100%"
   variant="primary"
   height="48px"
@@ -366,8 +362,7 @@ export default function AddLiquidity({ currencyA, currencyB }) {
     Connect Wallet
   </Text>
 </Button>
-
-            ) : isWrongNetwork ? (
+  ) : isWrongNetwork ? (
               <CommitButton height="58px" />
             ) : (
               <AutoColumn gap="md">
